@@ -1,0 +1,30 @@
+{
+  "packages": [
+    "python@3.9",
+    "poetry@latest",
+    "git@latest",
+    "gh@latest",
+    "awscli@latest",
+    "jq@latest",
+    "yamllint@latest",
+    "tree@latest",
+    "tmux@latest",
+    "dive@latest",
+    "pulumi@latest",
+    "ripgrep@latest",
+    "podman@latest",
+    "qemu@latest",
+    "vscode@latest",
+    "terraform@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
