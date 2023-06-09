@@ -6,15 +6,13 @@
     "gh@latest",
     "awscli@latest",
     "jq@latest",
-    "yamllint@latest",
     "tree@latest",
     "tmux@latest",
     "dive@latest",
     "pulumi@latest",
     "ripgrep@latest",
-    "podman@latest",
+    "docker@latest",
     "qemu@latest",
-    "vscode@latest",
     "terraform@latest"
   ],
   "shell": {
