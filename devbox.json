@@ -11,8 +11,6 @@
     "dive@latest",
     "pulumi@latest",
     "ripgrep@latest",
-    "docker@latest",
-    "qemu@latest",
     "terraform@latest"
   ],
   "shell": {
