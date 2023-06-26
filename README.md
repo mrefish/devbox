@@ -20,5 +20,14 @@ curl -fsSL https://get.jetpack.io/devbox | bash
 devbox global pull https://raw.githubusercontent.com/mrefish/devbox/main/devbox.json
 
 # Add Devbox to .rc file
-devbox global run install-hook-bash
+echo 'eval "$(devbox global shellenv)"' > ~/.bashrc
+```
+
+# Pretty (basic)
+```shell
+# Get this themey thing
+curl https://raw.githubusercontent.com/riobard/bash-powerline/master/bash-powerline.sh > ~/.bash-powerline.sh
+
+# Put it in .rc
+echo 'source ~/.bash-powerline.sh` > ~/.bashrc
 ```
