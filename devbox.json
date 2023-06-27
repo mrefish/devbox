@@ -11,11 +11,12 @@
     "dive@latest",
     "pulumi@latest",
     "ripgrep@latest",
+    "rustup@latest",
     "terraform@latest"
   ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "echo 'Welcome to the fishbowl!' > /dev/null"
     ],
     "scripts": {
       "test": [
